@@ -22,7 +22,7 @@ class App extends React.Component {
         if(!this.state.errorMessage && this.state.coord){
             return <SeasonDisplay lat={this.state.coord}/>;
         } 
-        return <SpinnerLoad />
+        return <SpinnerLoad message="plese allow request location"/>
     }
 }
 
